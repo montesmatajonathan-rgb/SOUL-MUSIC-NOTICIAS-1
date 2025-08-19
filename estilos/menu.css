@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+#menuss {
+	width: 1150px;
+	height: 70px;
+	background-color:#ffffff;
+}
+
+.menu ul {
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu li {
+    border-right: 2px solid rgb(0, 0, 0);
+    display: inline-block;
+}
+
+.menu li a:hover {
+    background-color: rgb(255, 36, 36);
+}
+.menu li a {
+    display: block;
+    padding: 25px 30px;
+    color: #000000;
+     text-decoration: none;
+}
+
